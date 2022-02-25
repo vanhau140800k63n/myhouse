@@ -9,7 +9,7 @@
 
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="overflow-hidden">
 	<div class="flex h-screen">
 		<div class="w-2/12 bg-[#343a40] px-[8px]">@include('partial.sidebar')</div>
 		<div class="w-10/12">@yield('content')</div>
